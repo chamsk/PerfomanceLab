@@ -74,10 +74,10 @@ public class FirstDay {
                     break;
                 case "c": //меняем столбцы
                     ArrayList<Integer> arrayList = new ArrayList<>();
-                    for(int f = 0;f<m;f++){
+                    for(int f = 0;f<n;f++){
                         arrayList.add(mass[f][a-1]);
                     }
-                    for(int r=0;r<m;r++){
+                    for(int r=0;r<n;r++){
                         mass[r][a-1] = mass[r][b-1];
                         mass[r][b-1] = arrayList.get(r);
                 }
